@@ -13,6 +13,7 @@ Rails.application.routes.draw do
     get "/dogs" => "dogs#index"
     get "/teams" => "teams#index"
     get "/examples" => "examples#index"
+    get "/items" => "items#index"
   end
 
 end
