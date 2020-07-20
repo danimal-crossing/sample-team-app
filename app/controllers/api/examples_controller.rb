@@ -1,5 +1,5 @@
 class Api::ExamplesController < ApplicationController
   def index
-    render json: {message: "The examples index action is complete!"}
+    render json: {message: "Here are some examples."}
   end
 end
